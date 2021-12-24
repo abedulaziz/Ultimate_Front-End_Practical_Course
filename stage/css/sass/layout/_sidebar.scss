@@ -1,5 +1,5 @@
 .page {
-    .sidebar{
+    .sidebar {
         width: 250px;
         position: fixed;
         top:0;
@@ -8,5 +8,8 @@
         background-color: #eee;
         padding: 15px;
         transition: .3s;
+        &.no-sidebar {
+            left: -250px;
+        }
     }
 }
