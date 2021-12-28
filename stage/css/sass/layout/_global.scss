@@ -5,6 +5,9 @@
 body {
 
 }
+ul, ol, li {
+    list-style: none;
+}
 .page {
     min-height: 100vh;
     .content-area {
