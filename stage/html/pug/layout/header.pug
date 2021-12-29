@@ -9,3 +9,30 @@
             .noti-content Content
             .noti-foot: a(href='#') View All
     i.fa.fa-expand.fa-lg.toggle-fullscreen.header-icon
+    .dropdown.usermenu-container
+        .username#usermenu(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+            img.avatar.rounded-circle(src="images/index.jpg", alt="Azooz")
+            span.user Abdulaziz Kharraz
+            i.fa.fa-angle-down.fa-lg
+        .dropDown-menu.dropdown-menu-right(aria-labelledby='usermenu')
+            h3 Abdulaziz Kharraz
+            p Premium Member
+            ul.activities-list.list-unstyled
+                li Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, 
+                li Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, 
+                li Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia, 
+                li Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia,
+            hr
+            .row.usermenu-links
+                .col
+                    .link-box
+                        i.fa.fa-gear.fa-lg.fa-fw
+                        span Settings
+                .col
+                    .link-box
+                        i.fa.fa-user.fa-lg.fa-fw
+                        span My Profile
+                .col
+                    .link-box
+                        i.fa.fa-power-off.fa-lg.fa-fw
+                        span logout

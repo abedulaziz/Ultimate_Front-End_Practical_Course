@@ -39,3 +39,4 @@ function openFullscreen() {
       document.msExitFullscreen();
     }
   }
+    

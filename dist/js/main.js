@@ -39,5 +39,6 @@ function openFullscreen() {
       document.msExitFullscreen();
     }
   }
+    
 const myMap = new Map();
 const mySet = new Set();
