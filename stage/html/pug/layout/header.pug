@@ -1,2 +1,11 @@
 .header 
     i.fa.fa-exchange.fa-lg.toggle-sidebar
+    .dropdown.notification-container
+        i.fa.fa-bell.fa-lg.header-icon.toggle-notification#notifications(data-toggle='dropdown' aria-haspopup='true' aria-expanded='false')
+        .dropdown-menu(aria-labelledby='notifications')
+            .noti-head
+                | Notifications
+                span 50
+            .noti-content Content
+            .noti-foot: a(href='#') View All
+    i.fa.fa-expand.fa-lg.toggle-fullscreen.header-icon
