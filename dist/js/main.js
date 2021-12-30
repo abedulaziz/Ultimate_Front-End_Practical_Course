@@ -15,6 +15,9 @@ $(function() {
             openFullscreen();
         }else closeFullscreen();
     })
+    $('.toggle-settings').on('click', function() {
+      $(this).parent().toggleClass('hide-settings')
+    })
 })
 
 var elem = document.documentElement;
