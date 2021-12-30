@@ -2,9 +2,6 @@
     box-sizing: border-box;
 }
 
-body {
-
-}
 ul, ol, li {
     list-style: none;
 }
@@ -20,5 +17,13 @@ ul, ol, li {
         &.no-sidebar {
             width: 100%;
         }
+    }
+}
+
+.page-head {
+    margin-top: 20px;
+    padding: 20px;
+    .page-title {
+        font-weight: bold;
     }
 }
