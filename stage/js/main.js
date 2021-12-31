@@ -27,6 +27,15 @@ $(function() {
     $(".color-options li").on('click', function (){
       $(this).addClass('active').siblings().removeClass('active');
       $("body").removeClass(themesClasses.join(' ')).addClass($(this).data('theme'))
+    });
+    // switch font options
+    $(".fonts-options select").on('change', function() {
+      var fontClasses = [];
+    $(".fonts-options select option").each(function() {
+      fontClasses.push($(this).val());
+    })
+      console.log('haha')
+      $("body").removeClass(fontClasses.join(" ")).addClass($(this).find("option:selected").val());
     })
 })
 
